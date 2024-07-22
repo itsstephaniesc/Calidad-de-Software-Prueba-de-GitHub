@@ -1,0 +1,9 @@
+echo "Stephanie Sanchez Cordero" > archivo.txt
+echo "21 de julio, 2024. 19:45 " >> archivo.txt
+git add archivo.txt
+git commit -m "Añadir archivo con nombre y fecha"
+git push origin master
+echo "Calidad de Software, Prueba de GitHub" >> archivo.txt
+git add archivo.txt
+git commit -m "Agregar línea sobre calidad de software"
+git push origin master
